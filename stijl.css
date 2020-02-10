@@ -1,0 +1,29 @@
+body {
+	font-family: helvetica, sans-serif;
+	font-size: 1.65rem;
+	background-color: white;
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(7,1fr);
+	width: 75vh;
+	height: 75vh;
+	gap: 0.1rem;
+	margin: 5vh auto 2vh auto;
+	background-color: white;
+}
+
+main div {
+	background-color: #f1ece2;
+}
+
+p {
+	width: 75vh;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.vastgezet {
+	border: 0.1rem solid white;
+}
